@@ -10,6 +10,8 @@
             "includePath": [
                 "c:/Users/deich/Desktop/iot/iot_esp32_sensor/include",
                 "c:/Users/deich/Desktop/iot/iot_esp32_sensor/src",
+                "c:/Users/deich/Desktop/iot/iot_esp32_sensor/.pio/libdeps/esp32dev/TinyMqtt/src",
+                "c:/Users/deich/Desktop/iot/iot_esp32_sensor/.pio/libdeps/esp32dev/TinyConsole/src",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -201,6 +203,7 @@
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/variants/esp32",
+                "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src",
@@ -230,7 +233,6 @@
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
@@ -241,6 +243,8 @@
                 "path": [
                     "c:/Users/deich/Desktop/iot/iot_esp32_sensor/include",
                     "c:/Users/deich/Desktop/iot/iot_esp32_sensor/src",
+                    "c:/Users/deich/Desktop/iot/iot_esp32_sensor/.pio/libdeps/esp32dev/TinyMqtt/src",
+                    "c:/Users/deich/Desktop/iot/iot_esp32_sensor/.pio/libdeps/esp32dev/TinyConsole/src",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -432,6 +436,7 @@
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/variants/esp32",
+                    "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src",
@@ -461,7 +466,6 @@
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                    "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     "C:/Users/deich/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
@@ -489,7 +493,7 @@
                 ""
             ],
             "cStandard": "c99",
-            "cppStandard": "c++11",
+            "cppStandard": "c++14",
             "compilerPath": "C:/Users/deich/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc.exe",
             "compilerArgs": [
                 "-mlongcalls",
